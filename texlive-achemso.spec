@@ -3,7 +3,7 @@ Version:	3.5i
 Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive//macros/latex/contrib/achemso
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.doc.tar.xz
@@ -30,11 +30,13 @@ of the bundle.
     %_texmf_mktexlsr_post
 
 %preun
-    %_texmf_mktexlsr_preun
+    if [ $1 -eq 0 ]; then
+	%_texmf_mktexlsr_pre
+    fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mltexlsr_post
+	%_texmf_mktexlsr_post
     fi
 
 #-----------------------------------------------------------------------
