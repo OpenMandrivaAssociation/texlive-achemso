@@ -1,3 +1,9 @@
+# revision 24041
+# category Package
+# catalog-ctan /macros/latex/contrib/achemso
+# catalog-date 2011-09-20 17:10:53 +0200
+# catalog-license lppl1.3
+# catalog-version 3.5i
 Name:		texlive-achemso
 Version:	3.5i
 Release:	1
@@ -92,6 +98,7 @@ of the bundle.
 #- source
 %doc %{_texmfdistdir}/source/latex/achemso/achemso.dtx
 %doc %{_texmfdistdir}/source/latex/achemso/achemso.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -102,3 +109,5 @@ of the bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
