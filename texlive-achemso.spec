@@ -1,11 +1,11 @@
-# revision 24041
+# revision 24605
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2011-09-20 17:10:53 +0200
+# catalog-date 2011-11-14 22:52:37 +0100
 # catalog-license lppl1.3
-# catalog-version 3.5i
+# catalog-version 3.5j
 Name:		texlive-achemso
-Version:	3.5i
+Version:	3.5j
 Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
@@ -94,6 +94,8 @@ of the bundle.
 %{_texmfdistdir}/tex/latex/achemso/config/orlef7.cfg
 %{_texmfdistdir}/tex/latex/achemso/natmove.sty
 %doc %{_texmfdistdir}/doc/latex/achemso/README
+%doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.bib
+%doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.pdf
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.tex
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso.pdf
 #- source
