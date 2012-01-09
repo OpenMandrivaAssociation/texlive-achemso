@@ -1,12 +1,12 @@
-# revision 24605
+# revision 24979
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2011-11-14 22:52:37 +0100
+# catalog-date 2011-12-30 22:44:02 +0100
 # catalog-license lppl1.3
-# catalog-version 3.5j
+# catalog-version 3.5k
 Name:		texlive-achemso
-Version:	3.5j
-Release:	2
+Version:	3.5k
+Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
@@ -20,12 +20,11 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The bundle provides the official macros and BibTeX style for
-submission to the journals of the American Chemical Society.
-Also provided is a BibTeX style file to be used for
-bibliography database listings. The natmove package, which
-moves citations relative to punctuation, is distributed as part
-of the bundle.
+The bundle provides the official macros (achemso.cls) and
+BibTeX styles (achemso.bst and biochem.bst) for submission to
+the journals of the American Chemical Society. The natmove
+package, which moves citations relative to punctuation, is
+distributed as part of the bundle.
 
 %post
     %{_sbindir}/texlive.post
