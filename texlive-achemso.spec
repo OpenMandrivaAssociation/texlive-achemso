@@ -1,11 +1,11 @@
-# revision 26274
+# revision 27172
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2012-05-09 12:34:43 +0200
+# catalog-date 2012-07-26 00:18:42 +0200
 # catalog-license lppl1.3
-# catalog-version 3.7a
+# catalog-version 3.7b
 Name:		texlive-achemso
-Version:	3.7a
+Version:	3.7b
 Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
