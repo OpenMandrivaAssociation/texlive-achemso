@@ -1,11 +1,11 @@
-# revision 27172
+# revision 27662
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2012-07-26 00:18:42 +0200
+# catalog-date 2012-09-13 12:10:27 +0200
 # catalog-license lppl1.3
-# catalog-version 3.7b
+# catalog-version 3.7d
 Name:		texlive-achemso
-Version:	3.7b
+Version:	3.7d
 Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
@@ -103,6 +103,10 @@ cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
 
 
 %changelog
+* Thu Oct 25 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.7d-1
++ Revision: 819784
+- Update to latest release.
+
 * Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.7b-1
 + Revision: 811948
 - Update to latest release.
