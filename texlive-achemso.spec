@@ -1,11 +1,11 @@
-# revision 27662
+# revision 31751
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2012-09-13 12:10:27 +0200
+# catalog-date 2013-09-23 16:02:08 +0200
 # catalog-license lppl1.3
-# catalog-version 3.7d
+# catalog-version 3.8c
 Name:		texlive-achemso
-Version:	3.7d
+Version:	3.8c
 Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
@@ -40,14 +40,19 @@ distributed as part of the bundle.
 %{_texmfdistdir}/bibtex/bst/achemso/biochem.bst
 %{_texmfdistdir}/tex/latex/achemso/achemso.cls
 %{_texmfdistdir}/tex/latex/achemso/achemso.sty
+%{_texmfdistdir}/tex/latex/achemso/config/aamick.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/acbcct.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/accacs.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/achre4.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/acncdm.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/acsccc.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/amclct.cfg
+%{_texmfdistdir}/tex/latex/achemso/config/amlccd.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/ancac3.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/ancham.cfg
+%{_texmfdistdir}/tex/latex/achemso/config/apchd5.cfg
+%{_texmfdistdir}/tex/latex/achemso/config/asbcd6.cfg
+%{_texmfdistdir}/tex/latex/achemso/config/ascecg.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/bcches.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/bichaw.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/bipret.cfg
@@ -58,6 +63,7 @@ distributed as part of the bundle.
 %{_texmfdistdir}/tex/latex/achemso/config/crtoec.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/enfuem.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/esthag.cfg
+%{_texmfdistdir}/tex/latex/achemso/config/estlcu.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/iecred.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/inoraj.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/jacsat.cfg
@@ -83,7 +89,6 @@ distributed as part of the bundle.
 %{_texmfdistdir}/tex/latex/achemso/config/orlef7.cfg
 %{_texmfdistdir}/tex/latex/achemso/natmove.sty
 %doc %{_texmfdistdir}/doc/latex/achemso/README
-%doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.bib
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.pdf
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.tex
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso.pdf
@@ -100,42 +105,3 @@ distributed as part of the bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Oct 25 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.7d-1
-+ Revision: 819784
-- Update to latest release.
-
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.7b-1
-+ Revision: 811948
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.7a-1
-+ Revision: 804439
-- Update to latest release.
-
-* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.6-1
-+ Revision: 762525
-- Update to latest upstream package
-
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.5k-1
-+ Revision: 758822
-- texlive-achemso
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.5j-2
-+ Revision: 749073
-- Rebuild to reduce used resources
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.5j-1
-+ Revision: 732493
-- texlive-achemso
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.5i-1
-+ Revision: 717787
-- texlive-achemso
-- texlive-achemso
-- texlive-achemso
-- texlive-achemso
-- texlive-achemso
-
