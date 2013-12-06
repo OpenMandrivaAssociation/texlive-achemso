@@ -6,7 +6,7 @@
 # catalog-version 3.8d
 Name:		texlive-achemso
 Version:	3.8d
-Release:	4
+Release:	5
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
