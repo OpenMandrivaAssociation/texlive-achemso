@@ -1,12 +1,12 @@
-# revision 31893
+# revision 32619
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2013-10-06 00:17:46 +0200
+# catalog-date 2014-01-09 12:45:18 +0100
 # catalog-license lppl1.3
-# catalog-version 3.8d
+# catalog-version 3.8e
 Name:		texlive-achemso
-Version:	3.8d
-Release:	5
+Version:	3.8e
+Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
