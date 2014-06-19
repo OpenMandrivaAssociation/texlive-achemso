@@ -1,12 +1,12 @@
-# revision 33132
+# revision 34300
 # category Package
 # catalog-ctan /macros/latex/contrib/achemso
-# catalog-date 2014-03-09 20:09:33 +0100
+# catalog-date 2014-06-12 21:05:44 +0200
 # catalog-license lppl1.3
-# catalog-version 3.8g
+# catalog-version 3.8j
 Name:		texlive-achemso
-Version:	3.8g
-Release:	2
+Version:	3.8j
+Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
@@ -55,7 +55,6 @@ distributed as part of the bundle.
 %{_texmfdistdir}/tex/latex/achemso/config/ascecg.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/bcches.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/bichaw.cfg
-%{_texmfdistdir}/tex/latex/achemso/config/bipret.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/bomaf6.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/cgdefu.cfg
 %{_texmfdistdir}/tex/latex/achemso/config/chreay.cfg
@@ -89,7 +88,6 @@ distributed as part of the bundle.
 %{_texmfdistdir}/tex/latex/achemso/config/orlef7.cfg
 %{_texmfdistdir}/tex/latex/achemso/natmove.sty
 %doc %{_texmfdistdir}/doc/latex/achemso/README
-%doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.bib
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.pdf
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso-demo.tex
 %doc %{_texmfdistdir}/doc/latex/achemso/achemso.pdf
