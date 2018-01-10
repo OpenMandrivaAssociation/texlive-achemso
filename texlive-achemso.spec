@@ -1,5 +1,5 @@
 Name:		texlive-achemso
-Version:	3.10i
+Version:	3.11
 Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
