@@ -5,9 +5,9 @@ Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.r64807.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.doc.r64807.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.source.r64807.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/achemso.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
