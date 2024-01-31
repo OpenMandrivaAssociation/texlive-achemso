@@ -1,6 +1,6 @@
 Name:		texlive-achemso
-Version:	65103
-Release:	2
+Version:	69638
+Release:	1
 Summary:	Support for American Chemical Society journal submissions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/achemso
